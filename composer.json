@@ -1,0 +1,20 @@
+{
+  "name": "sander/test",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+
+  },
+  "require-dev": {
+
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "@putenv $PATH=/usr/local/bin /usr/bin /bin /usr/sbin /sbin ~/.symfony/bin",
+      "@php test.php"
+    ]
+  }
+}
