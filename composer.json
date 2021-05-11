@@ -13,7 +13,6 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "@putenv $PATH=/usr/local/bin /usr/bin /bin /usr/sbin /sbin ~/.symfony/bin",
       "@php test.php"
     ]
   }
